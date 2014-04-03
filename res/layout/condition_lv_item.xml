@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_vertical"
+	style="@style/list_item_middle"
+	>
+	<TextView 
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:textColor="@android:color/black"
+	    android:layout_marginLeft="@dimen/margin_5"
+	    android:id="@+id/condition_lv_item_name_tv"
+	    android:textSize="@dimen/item_text"
+	    android:ellipsize="end"
+	    android:singleLine="true"
+	    />
+	
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="@dimen/margin_10"
+	    android:layout_marginRight="@dimen/margin_10"
+	    android:textColor="@android:color/black"
+	    android:id="@+id/condition_lv_item_count_tv"
+	    android:textSize="@dimen/item_text"
+	    />
+	
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="@dimen/margin_10"
+	    android:layout_marginRight="@dimen/margin_10"
+	    android:textColor="@android:color/black"
+	    android:id="@+id/condition_lv_item_cals_tv"
+	    android:textSize="@dimen/item_text"
+	    />
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="@dimen/margin_10"
+	    android:layout_marginRight="@dimen/margin_10"
+	    android:id="@+id/condition_lv_item_delete_btn"
+	    android:background="@drawable/delete_btn_normal"
+	    android:gravity="center"
+	    android:textSize="@dimen/delete_text_size"
+	    android:text="删除"
+	    android:textColor="@android:color/black"
+	    />
+</LinearLayout>

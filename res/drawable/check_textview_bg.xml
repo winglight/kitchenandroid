@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <item android:drawable="@drawable/cb_glossy_off" 
+        android:state_checked="false"/> 
+        <item android:drawable="@drawable/cb_glossy_on" 
+        android:state_checked="true"/> 
+</selector>

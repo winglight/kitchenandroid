@@ -1,0 +1,226 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/notefragment_left_bg"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_5"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:id="@+id/fragment_food_info_navbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" 
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <Button
+            android:id="@+id/fragment_food_info_up_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/date_up_button" />
+
+        <TextView
+            android:id="@+id/fragment_food_info_page_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/fragment_food_info_next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/date_next_button" />
+    </LinearLayout>
+   <Button
+            android:id="@+id/fragment_food_info_course_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/food_course_btn_state"
+            android:layout_gravity="right|center_vertical" />
+    </FrameLayout>
+
+    <com.syt.health.kitchen.customview.StickyScrollView
+        android:id="@+id/fragment_food_info_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:overScrollMode="always" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fragment_food_info_foodname_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/course_name_bg"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/healthcodition_item_text_size" />
+
+            <com.syt.health.kitchen.widget.Banner
+                android:id="@+id/fragment_food_info_food_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/s_logo_shrink" />
+
+
+                <LinearLayout
+                    android:id="@+id/fragment_food_info_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                     android:layout_gravity="center"
+                    android:tag="sticky-nonconstant-hastransparancy"
+                    >
+
+                    <Button
+                        android:id="@+id/fragment_food_info_intro_btn"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/food_info_action_button_state" 
+                        android:textSize="@dimen/food_info_title_size"
+                        android:text="宜忌"
+                        />
+
+                    <Button
+                        android:id="@+id/fragment_food_info_food_btn"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/food_info_action_button_state" 
+                        android:textSize="@dimen/food_info_title_size"
+                        android:text="营养素"
+                        />
+
+                    <Button
+                        android:id="@+id/fragment_food_info_step_btn"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/food_info_action_button_state"
+                        android:textSize="@dimen/food_info_title_size"
+                        android:text="采购宝典"
+                         />
+
+                    <Button
+                        android:id="@+id/fragment_food_info_top_btn"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/food_info_action_button_state"
+                        android:textSize="@dimen/food_info_title_size"
+                        android:text="回顶部"
+                         />
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_header_bg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_list_item"
+                android:orientation="vertical" 
+                android:layout_marginRight="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yiji"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size" />
+
+                <LinearLayout
+                    android:id="@+id/fragment_food_info_jieshao_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_middle_bg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_list_item"
+                android:orientation="vertical" 
+                android:layout_marginRight="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nutrient"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size" />
+
+                <LinearLayout
+                    android:id="@+id/fragment_food_info_shicai_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_middle_bg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_list_item"
+                android:orientation="vertical" 
+                android:layout_marginRight="2dp">
+
+                <TextView
+                    android:id="@+id/fragment_food_info_step_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buy"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size" />
+
+                <LinearLayout
+                    android:id="@+id/fragment_food_info_step_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_footer_bg" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+    </com.syt.health.kitchen.customview.StickyScrollView>
+
+</LinearLayout>

@@ -1,0 +1,344 @@
+<resources>
+    <!--  -->
+    <string name="prompt_02">您还未设置养生条件</string>
+    <string name="prompt_01">养生条件已改变，将重新生成智能菜谱，是否覆盖当前菜谱？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="app_name">养生厨神</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">养生厨神</string>
+    <string name="no_network_connection_toast">没有网络连接</string>
+    <!-- Used in Fragment/fragment_todaymenu -->
+    <string name="heat">热量：</string>
+    <string name="optional">自选</string>
+    <string name="personalisation">个性设定</string>
+    <string name="number_of_people">适宜人数:</string>
+    <string name="add">添    加</string>
+    <string name="view_fruit">查看详情</string>
+    <string name="ok">确    认</string>
+    <string name="cancel">取消</string>
+    <string name="fruitset_dialog_advice">推荐儿童或成年人早餐摄入热量:675千卡/人</string>
+    <string name="heattotal">热量合计:</string>
+    <string name="fruitset_dialog_people">适宜人数:</string>
+    <string name="fruitset_dialog_count">名称:</string>
+    <!-- Used in MealTimesInfoActivity-->
+    <string name="edit">编          辑</string>
+    <string name="edit_ok">完         成</string>
+    <string name="mealtimesinfo_intelligence">智能生成菜谱</string>
+    <string name="mealtimesinfo_addfood">添加菜品</string>
+    <string name="back">返回</string>
+    <!-- User in HomeTabhostActivity -->
+    <string name="home_tabhost_rButton0">在家吃</string>
+     <string name="home_tabhost_rButton1">在外吃</string>
+      <string name="home_tabhost_rButton2">设置</string>
+        <string name="home_tabhost_rButton3">更多</string>
+    <string name="health_requirement_settings">设置条件</string>
+    <string name="people_amount">就餐人数：</string>
+    <string name="health_requirement">养生目标:</string>
+    <string name="save">保    存</string>
+    <string name="no_login_prompt">用户还未登陆，无法使用当前功能</string>
+    <string name="save_smart_condition">保存养生需求成功，现在可以使用智能生成菜谱功能</string>
+    <string name="meal_null">本餐次还未创建，不能添加菜品</string>
+    <string name="show_conditions">显示查找条件</string>
+    <string name="need_to_comply_health_requirement">符合养生目标</string>
+    <string name="course_name_or_food">菜品名称或者食材名称,可不填</string>
+    <string name="suitable">适宜：</string>
+    <string name="unsuitable">不限</string>
+    <string name="todaymenu_caigoudaohang">采购导航</string>
+    <string name="todaymenu_intelligenceBtn">智能生成</string>     
+    <string name="todaymenu_titleText">一日三餐</string>
+    <string name="lunch">中餐</string>
+    <string name="dinner">晚餐</string>
+    <string name="caluli">千卡</string>
+    <string name="add_courses_into_meal">添加菜品到餐次菜谱</string>
+    <string name="dialog_title">温馨提示：</string>
+    <!-- Use in FoodinfoFragment -->
+    <string name="essential_info">基本信息：</string>
+    <string name="ingredient">主料</string>
+    <string name="accessory">辅料</string>
+    <string name="final_text">总结：</string>
+    <string name="default_numpeople">1</string>
+    <string name="making">做法：</string>
+    <string name="wayOfcooking">烹饪方式：</string>
+    <string name="taste">口味：</string>
+    <string name="totalcooktime">烹饪时间：</string>
+    <string name="precooktime">准备时间：</string>
+    <string name="cookingmodel">进入烹饪模式</string>
+    <string name="foodinfo">菜品信息</string>
+    <string name="dailog_wait_title">请稍候</string>
+    <string name="dailog_wait_update_meal">正在保存餐次菜谱</string>
+    <string name="list_no_more_items">没有更多菜品</string>
+    <string name="list_loading_more">查询更多菜谱</string>
+    <string name="start_timer">启动</string>
+    <string name="stop_timer">停止</string>
+    <string name="set_timer">设置</string>
+    <string name="course_info_intro">菜品介绍</string>
+    <string name="course_info_food">菜品食材</string>
+    <string name="course_info_step">烹饪步骤</string>
+    <string name="course_info_top">回到顶部</string>
+    <!-- Use in BuyingActivity -->
+    <string name="updatelist">更新清单</string>
+    <string name="buyinglist">采购清单</string>
+    <string name="showlist">显示清单</string>
+    <string name="choicefood">食材选择</string>
+    <string name="start_choose_courses">开始选菜</string>
+    <string name="add_course">添加菜品</string>
+    <string name="add_food">添加食材</string>
+    <string name="input_restaurant">请输入餐厅名称</string>
+    <string name="restaurant_name_null">餐厅名称不可为空</string>
+    <string name="course">菜品</string>
+    <string name="food">食材</string>
+    <string name="clear_courses">清除所选菜品与食材</string>
+    <string name="save_courses_history">保存菜谱</string>
+    <string name="delete">删除</string>
+        <!-- Use in ResetListActivity -->
+    <string name="no_lunch">中餐未设定</string>
+     <string name="no_dinner">晚餐未设定</string>
+     <string name="history_title">历史记录</string> 
+     <string name="pingjia">评价:</string>
+     <string name="dialog_delete">确定要删除？</string>
+     <string name="goods">宜</string>
+     <string name="bads">忌</string>
+     <string name="low">低</string>
+     <string name="high">高</string>
+     <string name="conflicts">克</string>
+     <string name="new_version">当前为最新版本</string>
+     <string name="network_error">网络异常</string>
+     <string name="connect_timeout">连接超时</string>
+     <string name="yigou">已购</string>
+     <string name="weigou">未购</string>
+     <string name="more">更多</string>
+     <string name="login">正在连接...</string>
+     <string name="comment">正在根据菜谱生成总结语</string>
+     <string name="recommend_friut">推荐水果：</string>
+     <string name="auto_food">输入食材名称</string>
+     <string name="auto_course">输入菜品名称</string>
+     <string name="share">推荐一下</string>
+     <string name="failed">生成菜谱失败，请重新设置养生目标</string>
+      <string name="type">类别：</string>
+      <string name="health">养生：</string>
+      <string name="all">全部</string>
+      <string name="unlimited">不限</string>
+      <string name="cooking_steps">烹饪步骤</string>
+      <string name="collect">收藏</string>
+      <string name="material">不限</string>
+      <string name="keywords">请在左侧输入框输入关键字</string>
+      <string name="jieshao">介绍</string>
+      <string name="step">步骤</string>
+      <string name="step_no_data">步骤:暂无</string>
+      <string name="yiji">宜忌:</string>
+      <string name="nutrient">营养素(每100g可食用部分):</string>
+      <string name="buy">采购宝典:</string>
+      <string name="buy_no">采购宝典:暂无</string>
+      <string name="top">回顶部</string>
+      <string name="food_course">菜谱</string>
+      <string name="food_courses">%1$s相关菜谱</string>
+      <string name="no_menu_to_add_course">抱歉！请先到首页生成您想添加%1$s的日期的智能菜谱</string>
+       <string name="set_condition">设置养生条件</string>
+       <string name="no_buying">您还没有设置采购清单，请先到菜谱首页设置清单</string>
+       <string name="help_buying">采购宝典</string>
+       <string name="no_setting_meal">您还未设定当前日期的餐次</string>
+       <string name="condition_done">完成</string>
+       <string name="delete_course">删除菜品</string>
+       <string name="condition_set_title">设置养生目标</string>
+       <string name="condition_set_tip">请先至少选择一个养生目标</string>
+       <string name="condition_set_selected">已选择:</string>
+       <string name="no_menu_data">当天没有菜谱信息显示</string>
+       <string name="no_food_bible_data">本食材没有采购宝典</string>
+       <string name="meal_summarize">本餐次热量适合%1$s人，点击查看不适宜人群</string>
+       <string name="meal_bads">本餐次不适宜人群</string>
+       <string name="meal_no_bads">本餐次没有不适宜人群</string>
+       <string name="no_food">您还没有设置需要购买的食材</string>
+       <string name="all_conditions_data">已展示所有符合条件的数据</string>
+
+       <string name="refresh_meal">是否覆盖当前餐次?</string>
+       <string name="condition">养生目标</string>
+       <string name="buyinglist_no_menu">没有菜谱信息，请先添加或智能生成菜谱</string>
+       <string name="cache_food_list">正在缓存食材的采购宝典，请等待</string>
+       <string name="buying_food_list_meals">对象餐次:</string>
+       <string name="fruit">推荐水果</string>
+       <string name="fruit_advice">推荐</string>
+       <string name="fruit_all">全部</string>
+       <string name="no_nutrients_data">没有营养素数据</string>
+       <string name="sethealth_dialog">您设置的养生目标太多了！</string>
+       <string name="know_dialog">知道了</string>
+       <string name="not_allowed_add_same_course">您的餐次中已包含这道菜</string>
+       <string name="success_add_course">添加菜品成功</string>
+       <string name="fruit_tips">智能推荐为当季符合已设定目标的水果</string>
+       <string name="shake_tips">可以摇动手机来获取推荐</string>
+       <string name="search_course_tips">请输入菜名或主材</string>
+       <string name="no_menu_tips">没有餐次数据，请先生成一日菜谱</string>
+       <string name="thanks_for_feedback">谢谢您的反馈，我们将尽快给您回复！</string>
+       <string name="set_count">请先设置份数</string>
+       <string name="search_course">正在加载数据....</string>
+       <string name="no_conditions_data">没有找到相关数据</string>
+       <string name="added_course">您已经添加过该道菜</string>
+       <!-- 分割线 -->
+       <string name="share_value">亲们，分享一个好东东——#养生厨神Android版# 养生专家，尽在掌握！http://www.sythealth.com/</string>
+       <string name="clear_cache">清空</string>
+       <string name="keep_cache">保留</string>
+       <string name="no_cache">没有需要清理的缓存</string>
+       <string name="click_again_exit">再按一次退出程序</string>
+       <string name="exist_healthcondition">您已经添加过该养生目标</string>
+       <string name="includ_baby_yesORno">您设定的人数中是否包括这名幼儿?</string>
+       <string name="recommend_fruit_cal">推荐水果热量:</string>
+       <string name="modify">修改</string>
+       <string name="unit_g">克</string>
+       <string name="unit_kg">公斤</string>
+       <string name="add_success">添加成功</string>
+       <string name="modify_success">修改成功</string>
+       <string name="delete_success">删除成功</string>
+       <string name="clear_cache_success">已清空</string>
+       <string name="adding_course">正在添加菜品...</string>
+  <!-- array -->    
+	<string-array name="meal_times">
+        <item>早餐</item>
+        <item>中餐</item>
+        <item>晚餐</item>
+    </string-array>
+    <string-array name="first">
+        <item>日常保养</item>
+        <item>特殊阶段</item>
+        <item>家常美食</item>
+        <item>疾病食疗</item>
+        <item>体质养生</item>
+    </string-array>
+    <string-array name="take_care">
+        <item>防癌抗癌</item>
+        <item>益智健脑</item>
+        <item>益气补虚</item>
+        <item>补血养容</item>
+        <item>滋阴壮阳</item>
+        <item>健脾益胃</item>
+        <item>清热解毒</item>
+        <item>美容养颜</item>
+        <item>减肥瘦身</item>
+    </string-array>
+    <string-array name="special_stage">
+        <item>孕妇</item>
+        <item>月子期</item>
+        <item>婴幼儿</item>
+        <item>哺乳期</item>
+        <item>更新期</item>
+        <item>备孕期</item>
+        <item>青春期</item>
+        <item>儿童</item>
+    </string-array>
+    <string-array name="homemade_food">
+        <item>主食</item>
+        <item>热菜</item>
+        <item>凉菜</item>
+        <item>鲜汤</item>
+        <item>糕点</item>
+        <item>果汁</item>
+        <item>日韩</item>
+        <item>西餐</item>
+    </string-array>
+     <string-array name="food_therapy">
+        <item>贫血</item>
+        <item>高血压</item>
+        <item>糖尿病</item>
+        <item>前列腺炎</item>
+        <item>支气管炎</item>
+        <item>心肌梗塞</item>
+        <item>乳腺增生</item>
+    </string-array>
+     <string-array name="physique_health">
+        <item>阳虚体质</item>
+        <item>阴虚体质</item>
+        <item>气虚体质</item>
+        <item>痰湿体质</item>
+        <item>湿热体质</item>
+        <item>血瘀体质</item>
+        <item>特禀体质</item>
+        <item>气郁体质</item>
+    </string-array>
+     <string-array name="three">
+        <item>甜香</item>
+        <item>香辣</item>
+        <item>全部</item>
+        <item>清淡</item>
+        <item>咸香</item>
+    </string-array>
+    <string-array name="four">
+        <item>畜肉</item>
+        <item>水产</item>
+        <item>禽蛋</item>
+        <item>蔬菜</item>
+        <item>菌菇</item>
+        <item>豆类</item>
+        <item>其它</item>
+    </string-array>
+    <string-array name="comment">
+        <item>价格实惠</item>
+        <item>很贵的说</item>
+        <item>味道不错</item>
+        <item>分量太少</item>
+        <item>环境不错</item>
+        <item>豆类</item>
+    </string-array>
+    <string-array name = "fruit_weight">
+        <item>100克</item>
+        <item>200克</item>
+        <item>300克</item>
+        <item>400克</item>
+        <item>500克</item>
+        <item>600克</item>
+        <item>700克</item>
+        <item>800克</item>
+        <item>900克</item>
+        <item>1公斤</item>
+        <item>1.5公斤</item>
+        <item>2公斤</item>
+        <item>2.5公斤</item>
+        <item>3公斤</item>
+        <item>3.5公斤</item>
+        <item>4公斤</item>
+        <item>4.5公斤</item>
+        <item>5公斤</item>
+    </string-array>
+    <string-array name ="quantity">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name ="point">
+        <item>0</item>
+        <item>0.1</item>
+        <item>0.2</item>
+        <item>0.3</item>
+        <item>0.4</item>
+        <item>0.5</item>
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+        <item>0.9</item>
+    </string-array>
+    <string-array name ="condition_spinner">
+        <item>菜品宜忌查询</item>
+        <item>食材宜忌查询</item>
+        <item>养生宜忌查询</item>
+        <item>按营养素查询</item>
+        <item>热量目标查询</item>
+    </string-array>
+    <string-array name ="more">
+        <item>新手指南</item>
+        <item>意见反馈</item>
+        <item>一键分享</item>
+        <item>清理缓存</item>
+        <item>最新活动</item>
+        <item>关于我们</item>
+        <item>使用条款</item>
+    </string-array>
+</resources>

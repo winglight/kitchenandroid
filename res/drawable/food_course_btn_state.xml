@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <item android:drawable="@drawable/related_course" /> 
+    <item android:drawable="@drawable/related_course_pressed" 
+        android:state_pressed="true"/> 
+</selector>

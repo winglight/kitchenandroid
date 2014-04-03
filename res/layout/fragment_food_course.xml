@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/notefragment_left_bg"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/fragment_foodcourse_foodcourse_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_5"
+        android:layout_marginTop="@dimen/margin_20"
+        android:gravity="center"
+        android:textColor="@color/selected_text_color"
+        android:textSize="@dimen/healthcodition_item_text_size" />
+
+    <ListView
+        android:id="@+id/fragment_foodcourse_course_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_5"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:dividerHeight="0px"
+        android:listSelector="#00000000" />
+
+    <LinearLayout
+        android:id="@+id/fragment_foodcourse_footer_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_5"
+        android:background="@drawable/cell_footer_bg"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/fragment_set_mealtype_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_5"
+        android:visibility="gone" >
+    </LinearLayout>
+
+</LinearLayout>

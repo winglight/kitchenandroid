@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+       >
+       <LinearLayout 
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:orientation="horizontal"
+	        android:background="@drawable/bible_wheel_layout"
+	        >
+	    <com.syt.health.kitchen.widget.WheelView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"	   
+	    android:id="@+id/set_nutruen_wheel_view"
+	    android:layout_margin="@dimen/margin_10"
+	    android:background="@drawable/bible_wheel_bg"
+	    />    	 
+	    </LinearLayout>
+</RelativeLayout>

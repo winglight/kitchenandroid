@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+       >
+	        <LinearLayout 
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:background="@drawable/bible_wheel_layout"   
+	        android:orientation="horizontal" 
+	            >       
+	      <LinearLayout 
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:orientation="horizontal"
+	        android:background="@drawable/bible_wheel_bg"
+	        android:layout_margin="@dimen/margin_10"
+	        >       
+	    <com.syt.health.kitchen.widget.WheelView
+	    android:layout_width="0dip"
+	    android:layout_height="wrap_content"	   
+	    android:id="@+id/set_health_condition_classify_wheel_view"
+	    android:layout_weight="1"
+
+	    />    
+	  <LinearLayout 
+	      android:layout_width="2dp"
+	      android:layout_height="match_parent"
+	      android:background="@android:color/black"
+
+	      /> 
+	    <com.syt.health.kitchen.widget.WheelView
+	    android:layout_width="0dip" 
+	    android:layout_height="wrap_content"
+	    android:id="@+id/set_health_condition_condition_wheel_view"
+	    android:layout_weight="1"
+
+	    />
+	    </LinearLayout>
+	    </LinearLayout>
+	</RelativeLayout>

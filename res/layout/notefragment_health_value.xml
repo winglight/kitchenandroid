@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	
+	>
+	<Button 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/health_comments_btn"
+	    android:background="@drawable/today_reviewbtn_active"
+	    />
+	<ImageView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/scroll_arrow_right"
+	    android:layout_gravity="center_vertical"
+	    />
+	<ScrollView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="@dimen/scrollview_height"
+	    android:scrollbars="none"
+	    >
+	<TextView 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:textSize="@dimen/text_size"
+		android:textColor="@android:color/black"	
+		android:id="@+id/health_comments"
+		/>
+	</ScrollView>
+</LinearLayout>

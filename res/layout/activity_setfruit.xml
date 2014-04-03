@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_setcondition"
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"   
+    android:orientation="vertical"
+    android:gravity="center_horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50"
+        android:background="@drawable/setcondition_title_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/fruit"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/title_text_size" />
+
+        <Button
+            android:id="@+id/activity_setfruit_save_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_10"
+            android:background="@drawable/button_state"
+            android:text="@string/save"
+            android:textSize="@dimen/save_text_size" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <CheckedTextView
+            android:id="@+id/fragment_fruit_add_advice_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:background="@drawable/irbtn_btn_state" />
+
+        <CheckedTextView
+            android:id="@+id/fragment_fruit_add_all_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:background="@drawable/free_chioce_btn_state" />
+    </LinearLayout>
+	<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fruit_tips"
+            android:textColor="@color/selected_text_color"
+            android:textSize="@dimen/fruit_tip_text" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_30"
+            android:layout_marginRight="@dimen/margin_30"
+            android:background="@drawable/bg_wheel"
+            android:orientation="horizontal" >
+            <LinearLayout 
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:orientation="horizontal"
+	        android:background="@drawable/bg_setcondition"
+	        android:layout_margin="@dimen/margin_10"
+	        >
+
+            <com.syt.health.kitchen.widget.WheelView
+                android:id="@+id/activity_setfruit_fruit_wheel_view"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="2dip"
+                android:layout_height="match_parent"
+                android:background="@android:color/black" />
+
+            <com.syt.health.kitchen.widget.WheelView
+                android:id="@+id/activity_setfruit_count_wheel_view"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_marginRight="@dimen/margin_10"
+            android:scaleType="center"
+            android:src="@drawable/wheel_flow_bg" />
+    </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/activity_setfruit_fruit_bad_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_30"
+            android:layout_marginRight="@dimen/margin_30"
+            android:textColor="@color/selected_text_color"
+            android:textSize="@dimen/fruit_tip_text" 
+            android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_30"
+        android:layout_marginRight="@dimen/margin_30"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/activity_setfruit_fruit_info_tv"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/fruit_tip_text" />
+        <Button
+            android:id="@+id/activity_setfruit_add_fruit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/button_state"
+            android:text="@string/add"
+            android:textSize="@dimen/add_text_size" />
+    </LinearLayout>
+	<TextView
+        android:id="@+id/activity_setfruit_recommend_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_30"
+        android:layout_marginRight="@dimen/margin_30"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/fruit_tip_text" />
+
+    <TextView
+        android:id="@+id/activity_setfruit_total_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_30"
+        android:layout_marginRight="@dimen/margin_30"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/fruit_tip_text"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/activity_setfruit_surplus_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginLeft="@dimen/margin_30"
+        android:layout_marginRight="@dimen/margin_30"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/fruit_tip_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginLeft="@dimen/margin_30"
+        android:layout_marginRight="@dimen/margin_30"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/activity_setfruit_fruit_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:scrollbars="none"
+            android:listSelector="#00000000" />
+    </LinearLayout>
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_setfruit_help_layout"
+    />
+</FrameLayout>

@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+
+    >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/note_list_header_bg"
+        android:id="@+id/fragment_chart_list_item_header_layout"
+        />
+        
+    <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:background="@drawable/note_list_item_bg"
+         android:orientation="horizontal" 
+        >
+    <TextView
+        android:id="@+id/fragment_chart_list_item_title_txt"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size" 
+        android:layout_marginLeft="@dimen/margin_5"
+        />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@drawable/pb_bg"
+         >
+
+        <ProgressBar
+            android:id="@+id/fragment_chart_list_item_pb"
+            style="@android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:indeterminateOnly="false"
+            android:max="100"
+            android:progress="60"
+            android:progressDrawable="@drawable/progress_bar_states_green" 
+            android:layout_margin="3dp">
+        </ProgressBar>
+        <ImageView
+        android:id="@+id/fragment_chart_list_item_grid_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pb_five"
+        android:scaleType="fitXY"
+         />
+        <TextView
+        android:id="@+id/fragment_chart_list_item_value_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size" 
+        android:layout_gravity="center_horizontal"/>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/fragment_chart_list_item_badge_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_5"
+        />
+    </LinearLayout>
+</LinearLayout>

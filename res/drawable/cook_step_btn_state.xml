@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <item android:drawable="@drawable/cook_stepbtn" android:state_pressed="false"/> 
+    <item android:drawable="@drawable/cook_stepbtn_pressed" 
+        android:state_pressed="true"/> 
+</selector>

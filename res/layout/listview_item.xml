@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_30"
+    android:layout_marginRight="@dimen/margin_30" >
+
+    <CheckBox
+        android:id="@+id/listview_item_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:textSize="@dimen/expandablelistView_item_text_size"
+        android:background="@android:color/transparent"
+        android:button="@null"
+        android:checked="false"
+        android:drawableLeft="@drawable/check_textview_bg"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/listview_item_courseweight_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/expandablelistView_item_text_size"
+        android:layout_marginRight="40dp" />
+
+</RelativeLayout>

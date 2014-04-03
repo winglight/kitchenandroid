@@ -1,0 +1,11 @@
+<CheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/healthGoalChk"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dip"
+    android:background="@android:color/transparent"
+    android:button="@null"
+    android:padding="5dp"
+    android:drawableLeft="@drawable/check_textview_bg"
+    />

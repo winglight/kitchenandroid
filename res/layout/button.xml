@@ -1,0 +1,7 @@
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/activity_main_btn"
+    android:layout_height="wrap_content"
+    android:id="@+id/mybutton"
+    />
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="bottom_tab_padding_drawable">5.0dip</dimen>
+	<dimen name="bottom_tab_padding_up">5.0dip</dimen>
+	<dimen name="bottom_tab_font_size">15.0dip</dimen>
+	<dimen name="activity_main_btn">80.0dip</dimen>
+	<dimen name="activity_main_btn_margintop_01">140.0dip</dimen>
+	<dimen name="activity_main_btn_margintop_02">220.0dip</dimen>
+	<dimen name="activity_main_btn_margintop_03">300.0dip</dimen>
+	<dimen name="activity_main_btn_margintop_04">460.0dip</dimen>
+	<dimen name="activity_main_tv_width">60.0dip</dimen>
+	<dimen name="mealfragment_button_width">100.0dip</dimen>
+	<dimen name="activity_button_height">300.0dip</dimen>
+	<dimen name="margin_30">30.0dip</dimen>
+	<dimen name="coverflow_height">100.0dp</dimen>
+	<dimen name="margin_20">20.0dp</dimen>
+	<dimen name="margin_5">5.0dp</dimen>
+	<dimen name="margin_10">10.0dp</dimen>
+	<dimen name="margin_100">100.0dp</dimen>
+	<dimen name="margin_50">50.0dp</dimen>
+	<dimen name="margin_35">35.0dp</dimen>
+	<dimen name="margin_80">80.0dp</dimen>
+	<dimen name="margin_70">70.0dp</dimen>
+	<dimen name="margin_66">66.0dp</dimen>
+	<dimen name="note_chart_height">280.0dp</dimen>
+	<dimen name="text_size">15sp</dimen>
+	
+</resources>

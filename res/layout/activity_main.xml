@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <ViewSwitcher
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/mainContainer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <fragment
+                android:id="@+id/activity_main_left_linear"
+                android:name="com.syt.health.kitchen.fragment.BlankFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" />
+
+            <com.syt.health.kitchen.animation.AnimatedImageView
+                android:id="@+id/dummyView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </ViewSwitcher>
+
+        <FrameLayout
+            android:id="@+id/activity_main_framelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:background="@drawable/notefragment_right_bg"
+            android:paddingBottom="10dp"
+            android:paddingTop="16dp" >
+
+            <LinearLayout
+                android:id="@+id/activity_main_date_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_main_margin_top"
+                android:background="@drawable/date_text_focus"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/activity_main_today_date_btn"
+                    android:layout_width="@dimen/margin_30"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_marginBottom="@dimen/margin_10"
+                    android:textSize="@dimen/text_size" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/activity_main_breakfast_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dip"
+                android:layout_marginTop="@dimen/activity_main_btn_margintop_01"
+                android:background="@drawable/breakfast_btn_normal" />
+
+            <Button
+                android:id="@+id/activity_main_lunch_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_main_btn_margintop_02"
+                android:background="@drawable/lunch_btn_normal" />
+
+            <Button
+                android:id="@+id/activity_main_dinner_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_main_btn_margintop_03"
+                android:background="@drawable/dinner_btn_normal" />
+
+            <Button
+                android:id="@+id/activity_main_yiji_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/activity_main_margin_top"
+                android:background="@drawable/health_taboo_normal" />
+
+            <LinearLayout
+                android:id="@+id/activity_main_shadow_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tabbar_shadowbg" >
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:layout_marginBottom="@dimen/margin_30"
+        android:layout_marginTop="@dimen/margin_30"
+        android:background="@drawable/notefragment_left_above_bg" 
+        />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/activity_main_help_layout"
+        />
+</FrameLayout>

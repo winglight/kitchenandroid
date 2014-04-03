@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/notefragment_left_bg"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_5"
+        android:layout_marginTop="@dimen/margin_20"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <CheckedTextView
+            android:id="@+id/fragment_fruit_add_advice_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fruit_advice"
+            android:textColor="@color/selected_text_color"
+            android:textSize="20sp"
+            android:checked="true" />
+
+        <CheckedTextView
+            android:id="@+id/fragment_fruit_add_all_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fruit_all"
+            android:textColor="@color/selected_text_color"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/fragment_fruit_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_5"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:dividerHeight="0px" 
+        android:listSelector="#00000000"/>
+
+    <LinearLayout
+        android:id="@+id/fragment_fruit_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_5"
+        android:background="@drawable/cell_footer_bg"
+        android:visibility="gone" />
+
+</LinearLayout>

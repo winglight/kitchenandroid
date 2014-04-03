@@ -1,0 +1,13 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/healthcodition_item_text_size"
+    android:textColor="@android:color/black"
+    android:paddingLeft="40dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    />
+  
+
+
